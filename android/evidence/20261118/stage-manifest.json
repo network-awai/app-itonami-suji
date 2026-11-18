@@ -1,0 +1,345 @@
+{
+ "stagedTreeSha256": "b1379d03bcc6af3f01799202e8cc8042f465f650c9443dc5f7ca1061c25e7509",
+ "entries": [
+  {
+   "source": "src/main",
+   "staged": "android/.build/stage/000",
+   "renamedCljk": 7
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.cloud-itonami/suji/3d494ba728ea7510d4b9a981706270c41dfa86b0/src",
+   "staged": "android/.build/stage/002",
+   "renamedCljk": 0
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/error/b94158fd48ec541b70d3c455912a06f407537ddc/lib/kotoba.coll/src",
+   "staged": "android/.build/stage/003",
+   "renamedCljk": 33
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/html/4bf68e1a1b205674c70f386d59e430801fae3572/lib/kotoba.html/src",
+   "staged": "android/.build/stage/004",
+   "renamedCljk": 2
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/jp-go-digital-design-system/4bf68e1a1b205674c70f386d59e430801fae3572/lib/kotoba.jpGoDigitalDesignSystem/src",
+   "staged": "android/.build/stage/005",
+   "renamedCljk": 9
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/jp-go-digital-design-system/4bf68e1a1b205674c70f386d59e430801fae3572/lib/kotoba.jpGoDigitalDesignSystem/resources",
+   "staged": "android/.build/stage/006",
+   "renamedCljk": 0
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/process/4bf68e1a1b205674c70f386d59e430801fae3572/lib/kotoba.process/src",
+   "staged": "android/.build/stage/007",
+   "renamedCljk": 14
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/route/4bf68e1a1b205674c70f386d59e430801fae3572/lib/kotoba.route/src",
+   "staged": "android/.build/stage/008",
+   "renamedCljk": 3
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/error/b94158fd48ec541b70d3c455912a06f407537ddc/lib/kotoba.test/src",
+   "staged": "android/.build/stage/009",
+   "renamedCljk": 42
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/error/b94158fd48ec541b70d3c455912a06f407537ddc/lib/kotoba.text/src",
+   "staged": "android/.build/stage/010",
+   "renamedCljk": 2
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/webgl/4bf68e1a1b205674c70f386d59e430801fae3572/lib/kotoba.webgl/src",
+   "staged": "android/.build/stage/011",
+   "renamedCljk": 4
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/webgpu/4bf68e1a1b205674c70f386d59e430801fae3572/lib/kotoba.webgpu/src",
+   "staged": "android/.build/stage/012",
+   "renamedCljk": 7
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/error/b94158fd48ec541b70d3c455912a06f407537ddc/lib/kotoba.error/src",
+   "staged": "android/.build/stage/013",
+   "renamedCljk": 1
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/error/b94158fd48ec541b70d3c455912a06f407537ddc/lib/kotoba.set/src",
+   "staged": "android/.build/stage/014",
+   "renamedCljk": 13
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/error/b94158fd48ec541b70d3c455912a06f407537ddc/lib/kotoba.walk/src",
+   "staged": "android/.build/stage/015",
+   "renamedCljk": 13
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/jp-go-digital-design-system/4bf68e1a1b205674c70f386d59e430801fae3572/lib/kotoba.css/src",
+   "staged": "android/.build/stage/016",
+   "renamedCljk": 5
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/error/b94158fd48ec541b70d3c455912a06f407537ddc/lib/kotoba.osaho/src",
+   "staged": "android/.build/stage/017",
+   "renamedCljk": 18
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/error/b94158fd48ec541b70d3c455912a06f407537ddc/lib/kotoba.osaho/resources",
+   "staged": "android/.build/stage/018",
+   "renamedCljk": 0
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/error/b94158fd48ec541b70d3c455912a06f407537ddc/lib/kotoba.io/src",
+   "staged": "android/.build/stage/019",
+   "renamedCljk": 14
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/error/b94158fd48ec541b70d3c455912a06f407537ddc/lib/kotoba.spec/src",
+   "staged": "android/.build/stage/020",
+   "renamedCljk": 10
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/error/b94158fd48ec541b70d3c455912a06f407537ddc/lib/kotoba.gpu/src",
+   "staged": "android/.build/stage/021",
+   "renamedCljk": 3
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/error/b94158fd48ec541b70d3c455912a06f407537ddc/lib/kotoba.gpu/resources",
+   "staged": "android/.build/stage/022",
+   "renamedCljk": 0
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/error/b94158fd48ec541b70d3c455912a06f407537ddc/lib/kotoba.spriteGpu/src",
+   "staged": "android/.build/stage/023",
+   "renamedCljk": 2
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/error/b94158fd48ec541b70d3c455912a06f407537ddc/lib/kotoba.bytes/src",
+   "staged": "android/.build/stage/024",
+   "renamedCljk": 3
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/cartpole-math/b94158fd48ec541b70d3c455912a06f407537ddc/lib/kotoba.cartpoleMath/src",
+   "staged": "android/.build/stage/025",
+   "renamedCljk": 2
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/dance/b94158fd48ec541b70d3c455912a06f407537ddc/lib/kotoba.dance/src",
+   "staged": "android/.build/stage/026",
+   "renamedCljk": 2
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/error/b94158fd48ec541b70d3c455912a06f407537ddc/lib/kotoba.edn/src",
+   "staged": "android/.build/stage/027",
+   "renamedCljk": 41
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/error/b94158fd48ec541b70d3c455912a06f407537ddc/lib/kotoba.expr/src",
+   "staged": "android/.build/stage/028",
+   "renamedCljk": 2
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/fsm/b94158fd48ec541b70d3c455912a06f407537ddc/lib/kotoba.fsm/src",
+   "staged": "android/.build/stage/029",
+   "renamedCljk": 3
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/fsm/b94158fd48ec541b70d3c455912a06f407537ddc/lib/kotoba.fsm/resources",
+   "staged": "android/.build/stage/030",
+   "renamedCljk": 0
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/host/b94158fd48ec541b70d3c455912a06f407537ddc/lib/kotoba.host/src",
+   "staged": "android/.build/stage/031",
+   "renamedCljk": 6
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/level/b94158fd48ec541b70d3c455912a06f407537ddc/lib/kotoba.level/src",
+   "staged": "android/.build/stage/032",
+   "renamedCljk": 2
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/netsync/b94158fd48ec541b70d3c455912a06f407537ddc/lib/kotoba.netsync/src",
+   "staged": "android/.build/stage/033",
+   "renamedCljk": 5
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/org-w3-webgpu/b94158fd48ec541b70d3c455912a06f407537ddc/lib/org.w3.webgpu/src",
+   "staged": "android/.build/stage/034",
+   "renamedCljk": 1
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/error/b94158fd48ec541b70d3c455912a06f407537ddc/lib/kotoba.physics/src",
+   "staged": "android/.build/stage/035",
+   "renamedCljk": 6
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/error/b94158fd48ec541b70d3c455912a06f407537ddc/lib/kotoba.physics/resources",
+   "staged": "android/.build/stage/036",
+   "renamedCljk": 0
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/pipelines/b94158fd48ec541b70d3c455912a06f407537ddc/lib/kotoba.pipelines/src",
+   "staged": "android/.build/stage/037",
+   "renamedCljk": 2
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/playwright/b94158fd48ec541b70d3c455912a06f407537ddc/lib/kotoba.playwright/src",
+   "staged": "android/.build/stage/038",
+   "renamedCljk": 4
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/error/b94158fd48ec541b70d3c455912a06f407537ddc/lib/kotoba.pprint/src",
+   "staged": "android/.build/stage/039",
+   "renamedCljk": 1
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/render/ae1888d9bb11ca867e9844e925e6dc77eefb1f16/src",
+   "staged": "android/.build/stage/040",
+   "renamedCljk": 0
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/render/ae1888d9bb11ca867e9844e925e6dc77eefb1f16/resources",
+   "staged": "android/.build/stage/041",
+   "renamedCljk": 0
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/render-shaders/b94158fd48ec541b70d3c455912a06f407537ddc/lib/kotoba.renderShaders/src",
+   "staged": "android/.build/stage/042",
+   "renamedCljk": 2
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/scene2d/b94158fd48ec541b70d3c455912a06f407537ddc/lib/kotoba.scene2d/src",
+   "staged": "android/.build/stage/043",
+   "renamedCljk": 3
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/shaders/b94158fd48ec541b70d3c455912a06f407537ddc/lib/kotoba.shaders/src",
+   "staged": "android/.build/stage/044",
+   "renamedCljk": 2
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/sky/b94158fd48ec541b70d3c455912a06f407537ddc/lib/kotoba.sky/src",
+   "staged": "android/.build/stage/045",
+   "renamedCljk": 2
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/error/b94158fd48ec541b70d3c455912a06f407537ddc/lib/kotoba.sprite2d/src",
+   "staged": "android/.build/stage/046",
+   "renamedCljk": 7
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/error/b94158fd48ec541b70d3c455912a06f407537ddc/lib/kotoba.wgsl/src",
+   "staged": "android/.build/stage/047",
+   "renamedCljk": 2
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/error/b94158fd48ec541b70d3c455912a06f407537ddc/lib/kotoba.ioMultiformats/src",
+   "staged": "android/.build/stage/048",
+   "renamedCljk": 3
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/error/b94158fd48ec541b70d3c455912a06f407537ddc/lib/kotoba.kotobaHir/src",
+   "staged": "android/.build/stage/049",
+   "renamedCljk": 1
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/error/b94158fd48ec541b70d3c455912a06f407537ddc/lib/org.ietf.cbor/src",
+   "staged": "android/.build/stage/050",
+   "renamedCljk": 1
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/error/b94158fd48ec541b70d3c455912a06f407537ddc/lib/gov.nist.sha2/src",
+   "staged": "android/.build/stage/051",
+   "renamedCljk": 3
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/error/b94158fd48ec541b70d3c455912a06f407537ddc/lib/kotoba.security/src",
+   "staged": "android/.build/stage/052",
+   "renamedCljk": 52
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/error/b94158fd48ec541b70d3c455912a06f407537ddc/lib/kotoba.security",
+   "staged": "android/.build/stage/053",
+   "renamedCljk": 126
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/error/b94158fd48ec541b70d3c455912a06f407537ddc/lib/kotoba.machine/src",
+   "staged": "android/.build/stage/054",
+   "renamedCljk": 1
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/error/b94158fd48ec541b70d3c455912a06f407537ddc/lib/kotoba.machine/resources",
+   "staged": "android/.build/stage/055",
+   "renamedCljk": 0
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/error/b94158fd48ec541b70d3c455912a06f407537ddc/lib/kotoba.traversal/src",
+   "staged": "android/.build/stage/056",
+   "renamedCljk": 1
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/error/b94158fd48ec541b70d3c455912a06f407537ddc/lib/kotoba.traversal/resources",
+   "staged": "android/.build/stage/057",
+   "renamedCljk": 0
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/host/b94158fd48ec541b70d3c455912a06f407537ddc/lib/kotoba.kamiEngineSdk/src",
+   "staged": "android/.build/stage/058",
+   "renamedCljk": 24
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/host/b94158fd48ec541b70d3c455912a06f407537ddc/lib/kotoba.kamiEngineSdk/resources",
+   "staged": "android/.build/stage/059",
+   "renamedCljk": 0
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/host/b94158fd48ec541b70d3c455912a06f407537ddc/lib/kotoba.physics2d/src",
+   "staged": "android/.build/stage/060",
+   "renamedCljk": 3
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/host/b94158fd48ec541b70d3c455912a06f407537ddc/lib/kotoba.physics2d/test",
+   "staged": "android/.build/stage/061",
+   "renamedCljk": 4
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/error/b94158fd48ec541b70d3c455912a06f407537ddc/lib/kotoba.json/src",
+   "staged": "android/.build/stage/062",
+   "renamedCljk": 27
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/error/b94158fd48ec541b70d3c455912a06f407537ddc/lib/kotoba.kotobaCoreContracts/src",
+   "staged": "android/.build/stage/063",
+   "renamedCljk": 7
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/error/b94158fd48ec541b70d3c455912a06f407537ddc/lib/kotoba.kotobaCoreContracts/resources",
+   "staged": "android/.build/stage/064",
+   "renamedCljk": 0
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/error/b94158fd48ec541b70d3c455912a06f407537ddc/lib/kotoba.kotobaCoreContracts",
+   "staged": "android/.build/stage/065",
+   "renamedCljk": 160
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/error/b94158fd48ec541b70d3c455912a06f407537ddc/lib/kotoba.kotobaCoreContracts/scripts",
+   "staged": "android/.build/stage/066",
+   "renamedCljk": 4
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/error/b94158fd48ec541b70d3c455912a06f407537ddc/lib/org.ietf.ed25519/src",
+   "staged": "android/.build/stage/067",
+   "renamedCljk": 4
+  },
+  {
+   "source": "~/.gitlibs/libs/io.github.kotoba-lang/error/b94158fd48ec541b70d3c455912a06f407537ddc/lib/org.ietf.x25519/src",
+   "staged": "android/.build/stage/068",
+   "renamedCljk": 2
+  }
+ ]
+}
