@@ -1,0 +1,3 @@
+name: suji-posture
+description: Solves posture-load tasks with cloud-itonami/suji and writes unreviewed candidates the Awai suji app recomputes
+description_auto: false

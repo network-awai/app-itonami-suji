@@ -1,0 +1,9 @@
+{"jobs": [
+  {"id": "suji0posture0run", "name": "posture-run", "enabled": true, "state": "scheduled",
+   "schedule": {"kind": "cron", "expr": "0 7 * * 1", "display": "0 7 * * 1"},
+   "script": "suji_posture_run.sh",
+   "prompt": "Read the Script Output. Report the SUJI line, each HEADLINE line and the WROTE path. If a line starts with REFUSED or ERROR, report it as is and stop. Do not restate numbers that are not in the output and do not interpret them clinically.",
+   "enabled_toolsets": ["terminal", "file"],
+   "provider": null, "model": null, "base_url": null, "reasoning_effort": "low",
+   "deliver": "local", "skills": []}
+]}

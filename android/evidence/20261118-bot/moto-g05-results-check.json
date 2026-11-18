@@ -1,0 +1,31 @@
+{
+  "schema": "awai.suji.results-check.v1",
+  "at": "2026-11-18T13:18:49.815Z",
+  "checks": [
+    {
+      "name": "the simulator links to the results page",
+      "ok": true,
+      "detail": "link present"
+    },
+    {
+      "name": "the host candidate is accepted on the device",
+      "ok": true,
+      "detail": "success: 27.9 kgf "
+    },
+    {
+      "name": "a number changed by 1e-9 is refused and located",
+      "ok": true,
+      "detail": "error: この結果は受け付けません results do not recompute on this device 最初に違う値: loads.cervical.compressive-load-kgf ファイル: tampered.json"
+    },
+    {
+      "name": "a changed task with the old results is refused",
+      "ok": true,
+      "detail": "error: この結果は受け付けません results do not recompute on this device 最初に違う値: loads.atlanto-occipital.moment-nm ファイル: retasked.json"
+    }
+  ],
+  "device": {
+    "release": "17",
+    "model": "moto g05"
+  },
+  "status": "pass"
+}
