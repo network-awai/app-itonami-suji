@@ -1,0 +1,8 @@
+;; Unlisted capabilities are denied. itonami.edn copies this list and grants nothing.
+{:yakuwari/id :suji-posture
+ :yakuwari/capabilities
+ [{:capability :read_source :decision :autonomous}
+  {:capability :write_workspace :decision :autonomous}
+  {:capability :inference_muse :decision :autonomous}
+  {:capability :publish_external :decision :approval-required}
+  {:capability :git_push :decision :blocked}]}

@@ -1,0 +1,23 @@
+;; itonami profile (cloud.itonami.profile.v2). Repo-local: it is not installed
+;; into ~/.itonami/profiles and no scheduler runs it until an owner does so.
+{:itonami/schema "cloud.itonami.profile.v2"
+ :profile/id "suji-posture"
+ :profile/description "Solves posture-load tasks with cloud-itonami/suji and writes unreviewed candidates the Awai suji app recomputes"
+ :profile/hermes-compatible true
+ :agent/kind :worker
+ :runtime {:engine :itonami-agent :scheduler :itonami}
+ :placement {:mode :local :order [:local] :inference-rail :muse}
+ :inference {:rails [:muse] :authorities ["api.meta.ai"] :deny-hosts ["openrouter.ai"]}
+ :state {:workspace :host-local :results :cid-receipts :secrets :never-leave-host}
+ :bundle {:cid "bafkreig3klvk6tiewgq7xxcgkxtcncsaytbo5o2w4lpcyiws7ezhqaf6zi" :files 4}
+ :ids {:repo "network-awai/app-itonami-suji" :yakuwari/id "suji-posture"}
+ :authority {:default-decision :approval-required :source :yakuwari :ref "yakuwari.edn"}
+ :capabilities [{:capability :read_source :decision :autonomous}
+                {:capability :write_workspace :decision :autonomous}
+                {:capability :inference_muse :decision :autonomous}
+                {:capability :publish_external :decision :approval-required}
+                {:capability :git_push :decision :blocked}]
+ :org/world :awai
+ :org/path [:awai :suji-posture]
+ :invocation :on-demand
+ :cron? true}

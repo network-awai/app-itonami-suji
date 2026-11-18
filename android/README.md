@@ -28,11 +28,49 @@ app source:
 
 ```sh
 npm ci                       # in android/
-python3 -I build.py          # dist/: index.html, js/main.js, release.json (digests and source pins)
+python3 -I build.py          # dist/ (pages, js, release.json) and .build/host/host.js; runs the cljs tests
+node --test test/host.test.mjs
 npm run build:android        # arm64 debug APK; JDK 21, SDK 37, NDK 27.0.12077973
 npm run build:android:x86    # x86_64 debug APK
 node verify-device.mjs <adb-serial> [out.json]
+node verify-results.mjs <adb-serial> <candidate.json> [out.json]
 ```
+
+## Bot results (suji-posture)
+
+[AWAI-3512](https://linear.app/kotobalabs/issue/AWAI-3512). The bot and the app
+share one file, `src/awai/suji/candidate.cljc`. It validates a posture task,
+solves it through the app's own `kami.app-suji.core/solved` (cloud-itonami/suji),
+and checks a candidate.
+
+- **Task** (`awai.suji.task.v1`): the body, every posture angle the app has a
+  slider for, and the session length, within the slider ranges. A missing angle
+  or an unknown field is refused, never defaulted. Examples are in
+  `profiles/tasks/`.
+- **Host command** (`.build/host/host.js`, Node): `run <task.json> <out-dir>`
+  writes `candidate.json` (`awai.suji.candidate.v1`, status
+  `candidate-not-reviewed`) with the full loads, tensions and session strain.
+  A refused task writes `refusal.json` and exits 2. `example` prints the
+  simulator's opening posture as a task. It makes no network request.
+- **Itonami profile** (`profiles/suji-posture/`): `cloud.itonami.profile.v2` on
+  the Muse rail. `read_source`, `write_workspace` and `inference_muse` are
+  autonomous, `publish_external` needs approval, and `git_push` is blocked. It is
+  repo-local: it is not installed in `~/.itonami/profiles`, and no scheduler runs
+  it until an owner does. After changing SOUL.md, config.yaml, profile.yaml or
+  cron/jobs.json, recompute the bundle CID with Otehon's
+  `itonami.otehon.bundle/bundle-cid`.
+- **App** (`results.html`, linked from the simulator as 「bot の結果を開く」): opens a
+  local candidate.json, solves its task on the device, and shows it only when
+  every result agrees. Nothing is sent or stored.
+
+Agreement is not exact equality. Measured on 2026-11-18, Node 26 (V8 14.6) and
+Chrome 156 differed in 135 of 869 numbers, by at most 5.2e-13 absolute and
+1.9e-13 relative. `Math.pow`, `Math.exp` and similar functions may round
+differently between engines, and suji's iterative solvers carry that difference
+forward. Each number must therefore agree within `tolerance` (1e-11, relative
+to the larger magnitude, with an absolute floor below 1). Keys, strings,
+booleans and list lengths must be equal. The page states the largest
+difference it found.
 
 Debug APKs are test artifacts. They are not signed or OTA releases.
 
