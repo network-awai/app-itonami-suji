@@ -1,0 +1,22 @@
+{:kotoba-sha "b94158fd48ec541b70d3c455912a06f407537ddc"
+ ;; Each io.github.kotoba-lang lib below is read from ONE checkout of the kotoba
+ ;; monorepo at :kotoba-sha. The upstream deps.edn mixes two monorepo shas and repos
+ ;; that no longer exist, which tools.deps cannot reconcile (AWAI-3488).
+ :libs {
+        error "kotoba.error"
+        io "kotoba.io"
+        gpu "kotoba.gpu"
+        sprite-gpu "kotoba.spriteGpu"
+        wgsl "kotoba.wgsl"
+        edn "kotoba.edn"
+        expr "kotoba.expr"
+        bytes "kotoba.bytes"
+        sprite2d "kotoba.sprite2d"
+        text "kotoba.text"
+        coll "kotoba.coll"
+        test "kotoba.test"
+        json "kotoba.json"
+        physics "kotoba.physics"
+        pprint "kotoba.pprint"
+        osaho "kotoba.osaho"
+        kotoba-core-contracts "kotoba.kotobaCoreContracts"}}
